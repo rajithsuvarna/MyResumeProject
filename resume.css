@@ -1,0 +1,542 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+  height: 65vh;
+  opacity: 0.8;
+  background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+section {
+  width: 100%;
+  /*height: 75vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horizontal-list li {
+  display: inline-block;
+  margin: 0px 8px 8px 0px;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu li a {
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+  color: lightgrey;
+  border-bottom: 1px solid black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+  margin-top: 20vh;
+}
+
+#my-name {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons li a i {
+  /*color: red;*/
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+#about {
+  min-height: 200px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 3%;
+}
+#my-image {
+  height: 15rem;
+  width: 15rem;
+  margin: auto;
+  margin-top: -17vh;
+}
+#my-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 4px lightgrey;
+}
+#about p {
+  color: grey;
+  padding: 10px 70px 10px 70px;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+#about mark {
+  color: #2857a4;
+  background-color: white;
+}
+.heading-section {
+  width: 70%;
+  padding: 20px, 10px, 10px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+.heading-section span {
+  font-size: 40px;
+  color: #2857a4;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;
+}
+
+#skills {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section:nth-child(2n) {
+  background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+  background-color: white;
+}
+
+.skills-display {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skill-progress {
+  width: 10rem;
+  height: 1.7rem;
+  background-color: lightgrey;
+  border-radius: 0.8rem;
+
+  box-shadow: 0px 0px 6px 4px #7d6e6d;
+}
+#container-skill {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.mb75px {
+  margin-bottom: 75px;
+}
+.mb-blue {
+  background-color: #4a269d;
+}
+.mb-black {
+  background-color: #298f38;
+}
+.mb-red {
+  background-color: #ea8029;
+}
+.mb-orange {
+  background-color: orange;
+}
+.mb-white {
+  background-color: white;
+}
+.mb-yellow {
+  background-color: #d5041f;
+}
+.mb-green {
+  background-color: black;
+}
+.mb-violet {
+  background-color: #8f335b;
+}
+.eightypercent {
+  width: 85%;
+  height: inherit;
+  border-radius: 0.8rem;
+}
+.skill-name span {
+  color: white;
+  font-size: 1rem;
+  margin-left: 10px;
+  position: relative;
+  top: -10px;
+}
+.skill-progress > div {
+  border-radius: 20px, 0px, 0px, 20px;
+}
+#portfolio {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container-portfolio {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 10px 10px 10px;
+}
+
+#portfolio a {
+  text-decoration: none;
+}
+
+.portfolio-image-container {
+  max-width: 300px;
+  overflow: hidden;
+  margin: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.portfolio-image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-details {
+  /* display: none; */
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  color: transparent;
+  text-align: center;
+  padding: 10px;
+
+  /* background-color: white; */
+}
+
+.portfolio-image-container:hover {
+  box-shadow: 0 0 20px #74adc8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+  background-color: #6e6d6d78;
+  /* display: block; */
+  color: white;
+}
+
+#contact {
+  width: 100%;
+  min-height: 500px;
+  background: linear-gradient(#2857a4, #403066);
+}
+#container-contact {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact-form {
+  width: 400px;
+  margin: 2% 2%;
+  height: auto;
+}
+.contact-address {
+  margin: 2% 2%;
+  width: 400px;
+  height: auto;
+}
+#form-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.y-input input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+}
+.y-input input::placeholder {
+  color: white;
+}
+.y-input textarea {
+  border: none;
+  border-bottom: 3px solid white;
+  background: none;
+  color: white;
+  font-size: 0.9rem;
+}
+.sendmessage button {
+  margin-top: 20px;
+  height: 40px;
+}
+.contact-address p {
+  font-size: 1rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: white;
+}
+.contact-address h6 {
+  margin: 0px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.icon-address {
+  width: auto;
+  min-height: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+.icon-address i {
+  height: 20px;
+  width: 20px;
+}
+.icon-address span {
+  height: 30px;
+  font-size: 1.2rem;
+  margin-left: 7px;
+}
+.heading-section-contact {
+  width: 70%;
+  padding: 20px, 10px, 10px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+.heading-section-contact span {
+  font-size: 40px;
+  color: white;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;
+}
+.bottom-icon-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.timeline {
+  position: relative;
+  width: 70%;
+  min-height: 300px;
+}
+.timeline-box {
+  position: relative;
+  left: 5%;
+  margin: 5px;
+  width: 40%;
+  min-height: 100px;
+}
+.timeline-box:nth-child(2n) {
+  left: 55%;
+}
+.timeline-divider {
+  position: absolute;
+  width: 0;
+  height: 65%;
+  top: 14%;
+  left: 50%;
+  border: 3px dashed lightgrey;
+}
+.timeline-traveller {
+  position: sticky;
+  top: 37%;
+  transform: rotate(90deg);
+  z-index: 2;
+  color: #2857a4;
+}
+.timeline-box:nth-child(2n + 1)::after {
+  content: "";
+  position: absolute;
+  top: 37%;
+  right: -13%;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: grey;
+  z-index: 1;
+}
+.timeline-box:nth-child(2n)::after {
+  content: "";
+  position: absolute;
+  top: 37%;
+  left: -14.3%;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: grey;
+  z-index: 1;
+}
+.upper-timelinebox {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.lower-timelinebox p {
+  font-size: 1rem;
+  margin: 0;
+  letter-spacing: 0.04rem;
+  letter-spacing: 0.1rem;
+  color: grey;
+}
+.upper-timelinebox-img {
+  width: 25%;
+  height: 100%;
+}
+.upper-timelinebox-heading {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 13%;
+}
+.upper-timelinebox-heading-p {
+  font-size: 1rem;
+  margin: 0;
+  letter-spacing: 0.04rem;
+  letter-spacing: 0.1rem;
+  color: grey;
+}
+.upper-timelinebox-img-div {
+  width: 70%;
+  height: 80%;
+  margin-left: 13%;
+  margin-top: 4%;
+  background-image: url("https://dscvitbhopal.github.io/images/sponsors/cn.jpg");
+  background-size: cover;
+}
+.upper-timelinebox-img-div1 {
+  width: 80%;
+  height: 80%;
+  margin-left: 13%;
+  margin-top: 4%;
+  background-image: url("https://www.eduvidya.com/admin/Upload/Institutes/635109787306761006_IIIT%20Delhi.jpg");
+  background-size: cover;
+}
+.upper-timelinebox-heading h5,
+h6 {
+  margin: 0;
+}
+.upper-timelinebox-heading h5 {
+  font-size: 1.1rem;
+  margin-bottom: 3%;
+  color: #2857a4;
+}
+.upper-timelinebox-heading h6 {
+  font-size: 1rem;
+}
+.upper-timelinebox-heading .company {
+  color: orange;
+}
+.upper-timelinebox-heading .month {
+  color: grey;
+}
+#bars {
+  color: white;
+  position: absolute;
+  right: 5%;
+  display: none;
+}
+#bars:hover {
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+.dropdown-list {
+  margin: 0%;
+  width: 14%;
+  display: none;
+  font-size: 1rem;
+  padding-left: 10px;
+  background-color: #828470;
+  position: absolute;
+  right: 3%;
+  top: 9%;
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+#dropdown-menu:hover .dropdown-list {
+  display: block;
+  position: absolute;
+}
+.dropdown-list ul {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+.dropdown-list ul li {
+  margin-bottom: 5%;
+}
+.dropdown-list ul li a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 572px) {
+  #bars {
+    display: block;
+  }
+  .nav-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .timeline-box {
+    width: 90%;
+    left: 10%;
+  }
+  .timeline-box:nth-child(2n) {
+    left: 10%;
+  }
+  .timeline-divider {
+    left: 2%;
+  }
+  .timeline-box::after {
+    left: -10.4% !important;
+  }
+}
