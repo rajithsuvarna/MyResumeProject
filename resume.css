@@ -101,7 +101,7 @@ section {
   color: grey;
   padding: 10px 70px 10px 70px;
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 #about mark {
   color: #2857a4;
@@ -529,7 +529,7 @@ h6 {
     font-size: 1rem;
   }
   #about p {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -552,6 +552,6 @@ h6 {
     font-size: 1rem;
   }
   #about p {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
