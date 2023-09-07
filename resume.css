@@ -241,6 +241,7 @@ section:nth-child(2n + 1) {
 
 .portfolio-details {
   /* display: none; */
+  font-size: 1.7rem;
   transition: all 0.5s ease-in-out;
   position: absolute;
   top: 0;
