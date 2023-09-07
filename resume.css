@@ -547,4 +547,11 @@ h6 {
   .timeline-box::after {
     left: -10.4% !important;
   }
+  .portfolio-details {
+    /* display: none; */
+    font-size: 1rem;
+  }
+  #about p {
+    font-size: 1rem;
+  }
 }
