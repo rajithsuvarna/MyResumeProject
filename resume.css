@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   font-family: sans-serif;
-  
 }
 
 /* Body Header */
@@ -43,7 +42,9 @@ section {
 }
 
 .nav-menu li a {
-  transition: color 0.5s, border-bottom 4s;
+  transition:
+    color 0.5s,
+    border-bottom 4s;
 }
 
 .nav-menu li a:hover {
@@ -169,13 +170,13 @@ section:nth-child(2n + 1) {
   background-color: #4a269d;
 }
 .mb-black {
-  background-color: #298f38;
+  background-color: black;
 }
 .mb-red {
   background-color: #ea8029;
 }
 .mb-orange {
-  background-color: orange;
+  background-color: rgba(255, 166, 0, 0.719);
 }
 .mb-white {
   background-color: white;
@@ -184,11 +185,21 @@ section:nth-child(2n + 1) {
   background-color: #d5041f;
 }
 .mb-green {
-  background-color: black;
+  background-color: #298f38;
 }
 .mb-violet {
   background-color: #8f335b;
 }
+.mb-lightgreen {
+  background-color: #14b414;
+}
+.mb-purple {
+  background-color: #cc00ff;
+}
+.mb-pink {
+  background-color: #ff0066ce;
+}
+
 .eightypercent {
   width: 85%;
   height: inherit;
